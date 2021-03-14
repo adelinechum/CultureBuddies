@@ -28,6 +28,7 @@ li a:hover {
   background-color: #111;
 }
 
+
 .padded{
   margin-top: 1em;
   margin-bottom: 1em;
@@ -44,11 +45,16 @@ li a:hover {
   padding: 14px 16px;
 }
 
+.largerFont{
+  font-size: 20px;
+}
+
 .centered{
-margin-left: auto;
+  /* margin-left: 300px;
+  margin-right: 300px; */
+  width: 50%;
+  margin-left: auto;
   margin-right: auto;
-  width: 640px;
-  
 }
 
 .centeredCompletely{
