@@ -1,0 +1,58 @@
+
+body{
+  margin: 0;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #5c3296;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #111;
+}
+
+.padded{
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.header{
+  font-size: 30px;
+  color: white;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+.headerPadding{
+  margin: 0;
+  padding: 14px 16px;
+}
+
+.centered{
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+.centeredCompletely{
+  display: block;
+  margin-left: auto;
+  text-align: center;
+  margin-right: auto;
+  width: 50%;
+}
